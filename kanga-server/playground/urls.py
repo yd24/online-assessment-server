@@ -3,5 +3,5 @@ from . import views
 
 #routes
 urlpatterns = [
-    path('hello/', views.hello_world)
+    path('hello/', views.hello_world),
 ]
