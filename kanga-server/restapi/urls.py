@@ -3,5 +3,5 @@ from . import views
 
 #routes
 urlpatterns = [
-    path('hello/', views.hello_world)
+    path("recipe/", views.RecipeList.as_view(), name="recipe-read-create")
 ]
