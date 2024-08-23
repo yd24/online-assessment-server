@@ -13,6 +13,7 @@ psycopg2-binary = "*"
 dj-database-url = "*"
 gunicorn = "*"
 uvicorn = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
