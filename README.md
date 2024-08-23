@@ -1,7 +1,7 @@
 # online-assessment-server
 
 ## Description
-Example server using Python, Django, and Django Rest Framework. Currently deployed on Render. 
+Example server using Python, Django, and Django Rest Framework. Currently deployed on Render and using an external PostgreSQL database hosted on Supabase.
 
 You can view an example of its usage on this [deployed site.](https://warm-blancmange-a405eb.netlify.app/)
 
