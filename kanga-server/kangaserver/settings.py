@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'kangaserver.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default = os.path.join(BASE_DIR, 'db.sqlite3'),
+        default = 'sqlite:///db.sqlite3',
         conn_max_age=600,
         conn_health_checks=True,
     )
