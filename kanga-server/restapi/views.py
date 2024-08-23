@@ -9,3 +9,8 @@ from .serializers import RecipeSerializer
 class RecipeList(generics.ListCreateAPIView):
     queryset = Recipe.objects.all()
     serializer_class = RecipeSerializer
+
+class RecipeRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Recipe.objects.all()
+    serializer_class = RecipeSerializer
+    lookup_field = "pk"
